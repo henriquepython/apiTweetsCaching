@@ -38,7 +38,7 @@
 git clone https://github.com/henriquepython/apiTweetsCaching.git
 
 # entrar na pasta do projeto
-cd ApiTraineUser
+cd apiTweetsCaching
 
 # instalar dependências
 npm install
