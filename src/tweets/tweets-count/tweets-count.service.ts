@@ -27,6 +27,8 @@ export class TweetsCountService {
       limit: this.limit,
     });
 
+    console.log(`${tweets.length} encontrados`);
+
     if (tweets.length === this.limit) {
       this.cacheManager.set('tweet-offset', offset + this.limit, {
         ttl: 1 * 60 * 10,
