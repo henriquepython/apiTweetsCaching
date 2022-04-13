@@ -1,6 +1,5 @@
 import { Module } from '@nestjs/common';
 import { TweetsModule } from './tweets/tweets.module';
-import { DatabaseService } from './database/database.service';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { join } from 'path/posix';
 import { ScheduleModule } from '@nestjs/schedule';
@@ -17,6 +16,6 @@ import { ScheduleModule } from '@nestjs/schedule';
     TweetsModule,
   ],
   controllers: [],
-  providers: [DatabaseService],
+  providers: [],
 })
 export class AppModule {}
