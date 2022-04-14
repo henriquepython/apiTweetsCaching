@@ -1,7 +1,7 @@
 
 # Sobre
 
-É uma Api de tweets, que permite a postagem mensagens e a contagem a cada 5 segundos de tweets enviados e armazenados no cache com um offset de 10 mensagens, mostrando a informações via terminal.
+É uma Api de tweets, que permite a postagem de mensagens e a contagem a cada 5 segundos de tweets enviados e armazenados no cache com um offset de 10 mensagens, mostrando a informações via terminal.
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
